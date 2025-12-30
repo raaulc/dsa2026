@@ -25,9 +25,9 @@ int main(){
     cout<<endl;
 
     cout << "all cols border " << endl;
-    for(int col=0;col<n;col++){
-        for(int row=0;row<m;row++){
-            if(col==0 or col==n-1){
+    for(int col=0;col<m;col++){
+        for(int row=0;row<n;row++){
+            if(col==0 or col==m-1){
                 cout<<arr[row][col]<<" ";
             }
         }

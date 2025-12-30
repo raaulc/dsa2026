@@ -1,8 +1,6 @@
 #include<iostream>
 #include<algorithm>
 using namespace std;
-int a=0;
-int b=0;
 
 bool twoSum(int arr[], int left, int right, int target,
             int &x, int &y) {
