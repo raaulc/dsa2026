@@ -14,15 +14,15 @@ int main(){
     }
 
     int target;cin>>target;
-    int row=0;
-    int col=m-1;
+    int row=n-1;
+    int col=0;
     int found = false; 
 
-    while(row<=n-1 and col>=0){
+    while(col<=m-1 and row>=0){
         if(arr[row][col]>target){
-            col--;
+            row--;
         } else if(arr[row][col]<target){
-            row++;
+            col++;
         } else {
             found = true;
             break;
